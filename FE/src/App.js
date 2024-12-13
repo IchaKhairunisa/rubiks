@@ -38,6 +38,7 @@ function Layout() {
       ) : null}
 
       <Routes>
+        <Route path="/" element={<LandingPage />} />
         <Route path='/LandingPage' element={<LandingPage />} />
         <Route path='/EditProfile' element={<EditProfile />} />
         <Route path='/Eksplorasi' element={<Eksplorasi />} />
