@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 // Database connection
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: '2620:119:35::35',
   user: 'root',
   password: '',
   database: 'rubiks',
